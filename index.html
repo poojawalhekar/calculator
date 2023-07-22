@@ -1,0 +1,130 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<style>
+   P{
+    text-align:right;
+color:aliceblue;
+font-size: 20px;
+margin-right: 8px;
+margin-top: 7px;
+ }
+    .calc-container{
+    
+ background-color: #2e2d2d;
+    font-size: 50px;
+    width: 240px;
+    padding: 15px;
+    padding-top: 10px;
+    margin-right: auto;  
+margin-left: auto;
+ margin-top: 50px;
+    border-radius: 10px;
+    
+    }
+    .calc-screen{
+        width: 230px;
+        background-color: #324d47;
+        display: block;
+        font-size: 45px;
+        margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    padding:5px;
+    border-radius: 2px;
+    }
+.solar-screen_container{
+    display: flex;
+    justify-content: end;
+    margin-right: 2px;
+    
+}
+.solar-screen{
+    background-color: darkolivegreen;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border: solid 1px black;
+    margin-top: 3px;
+
+}
+
+.calc-row{
+ justify-content: space-evenly; 
+ font:size- 400px;
+ text-align:right;
+display: flex;
+    
+}
+.calc-button{
+    font: size 100px;
+    height: 50px;
+    width: 50px;
+  border-radius: 2px 6px;
+    border: solid 2px black;
+    margin-bottom: 10;
+background-color: gray;
+
+}
+.calc-button-color{
+    background-color: aqua;
+
+}
+.calc-button:hover{
+    background-color: white;
+    border-radius:4px;
+}
+</style>
+<body>
+    <div class="calc-container">
+        <p>CASIO</p>
+        <input type="text" class="calc-screen"/>
+        
+        <div class="solar-screen_container">
+        <div class="solar-screen"></div>
+        <div class="solar-screen"></div>
+        <div class="solar-screen"></div>
+        <div class="solar-screen"></div>
+
+        </div>
+   
+  <div class="button-row">
+        <button class="calc-button"><b>C</b></button>
+        <button class="calc-button"><b>%</b></button>
+        <button class="calc-button"><b>/</b></button>
+        <button class="calc-button calc-button-color"><b>÷</b></button>
+    </div>
+    <div class="button-row">
+       <button class="calc-button"><b>7</b></button>
+       <button class="calc-button"><b>8</b></button>
+       <button class="calc-button"><b>9</b></button>
+       <button class="calc-button calc-button-color"><b>x</b></button>
+       
+        </div>
+    <div class="button-row">
+
+         <button class="calc-button"><b>4</b></button>
+       <button class="calc-button"><b>5</b></button>
+       <button class="calc-button"><b>6</b></button>
+       <button class="calc-button calc-button-color"><b>-</b></button>
+       
+          </div>
+<div class="button-row">
+<button class="calc-button"><b>1</b></button>
+<button class="calc-button"><b>2</b></button>
+<button class="calc-button"><b>3</b></button>
+<button class="calc-button calc-button-color"><b>+</b></button>
+
+</div>
+<div class="button-row">
+<button class="calc-button"><b>00</b></button>
+<button class="calc-button"><b>0</b></button>
+
+<button class="calc-button"><b>.</b></button>
+<button class="calc-button calc-button-color" ><b>=</b></button>
+</div>
+
+    </body>
+</head>
+</html>
